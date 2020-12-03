@@ -3,6 +3,5 @@ Trace the swash front in timestacks automatically. This is a competition for UQ'
 
 File Structure:
 
- ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![alt text](https://github.com/mikeyt120/swash_zone_tracing_SAI2020/blob/main/code_architecture.PNG?raw=true)
 
