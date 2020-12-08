@@ -28,7 +28,7 @@ To submit your .model file, upload it to this github repository in the following
 You will be working on just the convolutional neural network part of the diagram.
 
 **Acknowledgements:**
-*Prof. Tom Baldock - supervisor of the coastal aspects of this project
-*Assoc. Prof. Marcus Gallagher - supervisor of the ML aspects of this project
-*Dr. Hannah Power - provider of many of the timestacks
-*Dr. Caio Stringari - provider of many of the timestacks
+* Prof. Tom Baldock - supervisor of the coastal aspects of this project
+* Assoc. Prof. Marcus Gallagher - supervisor of the ML aspects of this project
+* Dr. Hannah Power - provider of many of the timestacks
+* Dr. Caio Stringari - provider of many of the timestacks
