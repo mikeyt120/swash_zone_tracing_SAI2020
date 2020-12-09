@@ -13,6 +13,7 @@ This is a competition for UQ's summer of AI, use my code as a starting point and
   * Google drive: https://drive.google.com/drive/folders/19RwOmtefXsmw2PiMeLAutdxg1oT0TKiS?usp=sharing
     * /labelled_timestacks (labelled training dataset - about 31,000 snapshots of timestacks with shoreline position labelled with a value between 0 and 1)
     * /test_timestacks (evaluation dataset - labelled data from a few different beaches used for evaluating the performance of you model)
+    * /full_labelled_timestacks (OPTIONAL - this contains the original full length timestacks I labelled for the labelled_timestacks folder. If you wanted to try segmentation, like Dr. Shakes Chandra suggested, this data would be helpful. Keep in mind that for the competition you still need to make sure the output of your model can be assessed by the same averaged MSE metric I have setup.)
 
 Please do not share these files online, the data is for the competition only.
 
@@ -32,5 +33,5 @@ You will be working on just the convolutional neural network part of the diagram
 **Acknowledgements:**
 * Prof. Tom Baldock - supervisor of the coastal aspects of this project
 * Assoc. Prof. Marcus Gallagher - supervisor of the ML aspects of this project
-* Dr. Hannah Power - provider of many of the timestacks
-* Dr. Caio Stringari - provider of many of the timestacks
+* Dr. Hannah Power - provided many of the timestacks
+* Dr. Caio Stringari - provided many of the timestacks. Also check out his github repository, it has heaps of cool machine learning applications to coastal engineering problems. https://github.com/caiostringari
