@@ -31,7 +31,7 @@ To submit your .model file, upload it to this github repository in the following
 You will be working on just the convolutional neural network part of the diagram.
 
 **Acknowledgements:**
-* Prof. Tom Baldock - supervisor of the coastal aspects of this project
-* Assoc. Prof. Marcus Gallagher - supervisor of the ML aspects of this project
-* Dr. Hannah Power - provided many of the timestacks
-* Dr. Caio Stringari - provided many of the timestacks. Also check out his github repository, it has heaps of cool machine learning applications to coastal engineering problems. https://github.com/caiostringari
+* Prof. Tom Baldock - supervisor of the coastal aspects of this project.
+* Assoc. Prof. Marcus Gallagher - supervisor of the ML aspects of this project.
+* Dr. Hannah Power - created and provided many of the timestacks.
+* Dr. Caio Stringari - created and provided many of the timestacks. Also check out his github repository, it has heaps of cool machine learning applications to coastal engineering problems. https://github.com/caiostringari
