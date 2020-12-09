@@ -16,7 +16,7 @@ This is a competition for UQ's summer of AI, use my code as a starting point and
 
 Please do not share these files online, the data is for the competition only.
 
-Put all the above files into a folder accesible by anaconda distribution. Open up "Timestack_Swash_Front_Tracing_SAI2020.ipynb" and run each code cell to train and evaluate a lightweight model. The model will be evaluated against some **seen** labelled timestacks. Experiment with different hyperparameters and deeper networks to try and beat the performance of my best model, "MThompson_best.model".
+Put all the above files into a folder accessible by anaconda distribution. Open up "Timestack_Swash_Front_Tracing_SAI2020.ipynb" and run each code cell to train and evaluate a lightweight model. The model will be evaluated against some **seen** labelled timestacks. Experiment with different hyperparameters and deeper networks to try and beat the performance of my best model, "MThompson_best.model".
 
 When the competition finishes, I will test your submitted model against the **seen** labelled timestacks and some **unseen** labelled timestacks which have data from some of the same beaches but also from some very different beaches. Therefore your model's ability to generalise will be put to the test! **The model with the best averaged MSE from the seen timestacks and unseen timestacks will win. If you win and your averaged MSE is less than 0.0003, then if you are keen to write a page or two about your implementation you will be a co-author to a planned journal paper with myself and a few coastal engineering researchers.**
 
