@@ -1,6 +1,8 @@
 # Swash Zone Tracing SAI2020
 This is a competition for UQ's summer of AI, use my code as a starting point and see if you can improve the performance! Your task is to trace the swash front (where the water meets the shore) in timestacks automatically.
 
+For a video summary of the project, see the UQ Summer of AI recording from 8:12-17:50. https://uqz.zoom.us/rec/share/f3WeS72Zr7sv-Sh-MZyeaG_3xFE9cPcPJN-CigPWFQgDrlC7qytrXfSk09gJvxbx.YqwWkVcmYp5OBGCc?startTime=1607385264000
+
 **Computer requirements:**
   * You need to have anaconda
   * A GPU will be helpful but not necessary to start acheiving satisfactory results
