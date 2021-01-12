@@ -26,8 +26,11 @@ Put all the above files into a folder accessible by anaconda distribution. Open 
 
 When the competition finishes, I will test your submitted model against the **seen** labelled timestacks and some **unseen** labelled timestacks which have data from some of the same beaches but also from some very different beaches. Therefore your model's ability to generalise will be put to the test! **The model with the best averaged MSE from the seen timestacks and unseen timestacks will win. If you win and your averaged MSE is less than 0.0003, then if you are keen to write a page or two about your implementation you will be a co-author to a planned journal paper with myself and a few coastal engineering researchers.**
 
-To submit your .model file, upload it to this github repository in the following format:
+If you were using an older version of tensorflow, to submit your .model file, upload it to this github repository in the following format:
   * firstnameLastname_imgSize_[insert your square image size number in pixels].model 
+    
+If you are using the more recent version of tensorflow, to submit your model folder, upload it to this github repository in the following format:
+  * firstnameLastname_imgSize_[insert your square image size number in pixels]
     
 **Code Structure:**
 
