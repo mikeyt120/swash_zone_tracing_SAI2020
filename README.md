@@ -6,6 +6,9 @@ For a video summary of the project, see the UQ Summer of AI recording from 8:12-
 **Computer requirements:**
   * You need to have anaconda
   * A GPU will be helpful but not necessary to start acheiving satisfactory results
+  * Using anaconda prompt, you may need to install tensorflow and opencv. The following lines should work:
+    * pip install opencv-python
+    * pip install tensorflow
 
 **Files you need to download:**
   * Github:
