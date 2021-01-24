@@ -14,19 +14,20 @@ For a video summary of the project, see the UQ Summer of AI recording from 8:12-
   * Github:
     * Timestack_Swash_Front_Tracing_SAI2020.ipynb (uploads the images, trains the model and evaluates performance on a validation set)
     * MThompson_best.model (my best tensorflow model, you can visualize the results with the above script)
+    * Timestack_Swash_Front_Tracing_SAI2020_Unet.ipynb (uploads the Unet images, trains the model and evaluates performance on a validation set)
     
   * Google drive: https://drive.google.com/drive/folders/19RwOmtefXsmw2PiMeLAutdxg1oT0TKiS?usp=sharing
     * /labelled_timestacks (labelled training dataset - about 31,000 snapshots of timestacks with shoreline position labelled with a value between 0 and 1)
     * /test_timestacks (evaluation dataset - labelled data from a few different beaches used for evaluating the performance of you model)
-    * /full_labelled_timestacks (OPTIONAL - this contains the original full length timestacks I labelled for the labelled_timestacks folder. If you wanted to try segmentation, like Dr. Shakes Chandra suggested, this data would be helpful. Keep in mind that for the competition you still need to make sure the output of your model can be assessed by the same averaged MSE metric I have setup.)
+    * /Unet_images (OPTIONAL - this contains the same data from labelled_timestacks but mask labelled for a Unet application. If you wanted to try segmentation, like Dr. Shakes Chandra suggested, use this data with the Timestack_Swash_Front_Tracing_SAI2020_Unet.ipynb script)
 
-Please do not share these files online, the data is for the competition only.
+Please do not share these files elsewhere online, the data is for the competition only.
 
 Put all the above files into a folder accessible by anaconda distribution. Open up "Timestack_Swash_Front_Tracing_SAI2020.ipynb" and run each code cell to train and evaluate a lightweight model. The model will be evaluated against some **seen** labelled timestacks. Experiment with different hyperparameters and deeper networks to try and beat the performance of my best model, "MThompson_best.model".
 
 When the competition finishes, I will test your submitted model against the **seen** labelled timestacks and some **unseen** labelled timestacks which have data from some of the same beaches but also from some very different beaches. Therefore your model's ability to generalise will be put to the test! **The model with the best averaged MSE from the seen timestacks and unseen timestacks will win. If you win and your averaged MSE is less than 0.0003, then if you are keen to write a page or two about your implementation you will be a co-author to a planned journal paper with myself and a few coastal engineering researchers.**
 
-If you were using an older version of tensorflow, to submit your .model file, upload it to this github repository in the following format:
+If you were using an older version of tensorflow, to submit your .model file upload it to this github repository in the following format:
   * firstnameLastname_imgSize_[insert your square image size number in pixels].model 
     
 If you are using the more recent version of tensorflow, to submit your model folder, upload it to this github repository in the following format:
